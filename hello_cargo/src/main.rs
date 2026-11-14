@@ -195,10 +195,20 @@ impl Rectangle {
     }
 }
 
-// rust has no equivalent -> btw (its automatic) :o
+// rust has no equivalent "->" btw (its automatic)(use ".") :o
+
+fn enums() {
+    enum Message {
+        Quit,
+        Move { x: i32, y: i32 },
+        Write(String),
+        ChangeColor(i32, i32, i32),
+    }
 
 
-// Finished ch 4-5 (start at 6)
+}
+
+// continue-> 6.2
 
 fn main() {
 
